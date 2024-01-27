@@ -77,7 +77,7 @@ export default page
 const myPortableTextComponents = {
   types: {
     image: ({ value }: any) => (
-      <Image src={urlForImage(value).url()} alt='Post' width={700} height={700} />
+      <Image src={urlForImage(value)} alt='Post' width={700} height={700} />
     ),
   },
 }
